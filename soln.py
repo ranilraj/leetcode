@@ -5,3 +5,4 @@ class Solution(object):
              if nums[i]-nums[j]==target and i!=j:
                 return([i,j])
                 exit()
+###gchgf
