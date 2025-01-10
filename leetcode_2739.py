@@ -1,4 +1,5 @@
 mainTank = 5
+<<<<<<< HEAD
 additionalTank = 10
 distance=0
 if mainTank<5:
@@ -10,3 +11,6 @@ else:
         distance+=60
         additionalTank-=1
 print(distance)
+=======
+additionalTank = 10
+>>>>>>> 49c9eedf720c48e80db48fba348f5df65bf8a0d9
