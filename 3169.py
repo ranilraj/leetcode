@@ -4,8 +4,8 @@
 days = 10
 meetings = [[5,7],[1,3],[9,10]]
 a=[]
-for i in range(len(meetings)):
-    for j in range(len(meetings[i])):
-        a.append(meetings[i][j])
+for i in meetings:
+    b=[i for i in range(i[0],i[1]+1)]
+    a+=b
 a=list(set(a))
-print(days-len(a))
+
